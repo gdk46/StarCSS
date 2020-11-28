@@ -25,8 +25,7 @@
  * Documentação
  * Contribuindo
  * Versão
- * Creators
- * Thanks
+ * Criador
  * Copyright and license
 
 ## Começando
