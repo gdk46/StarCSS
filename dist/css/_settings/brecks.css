@@ -1,0 +1,6 @@
+:root{
+    /* --break-s:; default */
+    --break-sm:360px;
+    --break-m:600px;
+    --break-l:1100px;
+}

@@ -1,0 +1,10 @@
+:root{
+    --alert-is_primary:#58dbc8;
+    --alert-is_link:#4179d3;
+    --alert-is_info:#00cfe8;
+    --alert-is_success:#52d158;
+    --alert-is_warning:#ff9f1a;
+    --alert-is_danger:#ea5455;
+    --alert-is_dark:#1d2d3d;
+    --alert-is_glitter:#a451d8;
+}

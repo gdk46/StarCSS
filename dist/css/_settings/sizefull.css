@@ -1,0 +1,9 @@
+:root{
+   --width-full:100%;
+   --width-auto:auto;
+   --width-vw:100vw;
+
+   --height-full:100%;
+   --height-auto:auto;
+   --height-vh:100vh;
+}

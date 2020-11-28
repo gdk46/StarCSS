@@ -1,0 +1,77 @@
+/*  sctuture default - ITCSS
+- Settings
+   - Tool
+      - Generic
+         - Elements
+            - Objects
+               - Components
+                  - Utilitie (Trumps)
+*/
+/* ================ SETTINGS ================ */
+   @import './_settings/badyBg.css';
+   @import './_settings/brecks.css';
+   @import './_settings/defaultColorInput.css';
+   @import './_settings/defaultColorAlert.css';
+   @import './_settings/defaultColorButton.css';
+   @import './_settings/defaultColorLayout.css';
+   @import './_settings/defaultColorNav.css';
+   @import './_settings/defaultColorFooter.css';
+   @import './_settings/defaultColorCard.css';
+   @import './_settings/gaps.css';
+   @import './_settings/sizefull.css';
+
+
+
+/* ================ ELEMENTS ================ */
+   @import './_element/reset.css';
+
+/* ================ OBEJECTS ================ */
+
+
+/* ================ COMPONENTS ================ */
+
+
+   /* ---------- COMPONENTS ---------- */
+   @import './_component/all-util.css';
+   @import './_component/comp-alert.css';
+   @import './_component/comp-badge.css';
+   @import './_component/comp-blockquote.css';
+   @import './_component/comp-breadcrumb.css';
+   @import './_component/comp-button.css';
+   @import './_component/comp-card.css';
+   @import './_component/comp-code.css';
+   @import './_component/comp-chips.css';
+   @import './_component/comp-divider.css';
+   @import './_component/comp-dotnav.css';
+   @import './_component/comp-dropdown.css';
+   @import './_component/comp-form.css';
+   @import './_component/comp-modal.css';
+   @import './_component/comp-offCanvas.css';
+   @import './_component/comp-overlay.css';
+   @import './_component/comp-pagination.css';
+   @import './_component/comp-preloader.css';
+   @import './_component/comp-progress.css';
+   @import './_component/comp-switch.css';
+   @import './_component/comp-table.css';
+   @import './_component/comp-typography.css';
+
+   /* ---------- LAYOUT ---------- */
+   @import './_component/layout-flex.css';
+   @import './_component/layout-grid.css';
+   @import './_component/layout-draw.css';
+   @import './_component/layout-img.css';
+   @import './_component/layout-line.css';
+   @import './_component/layout-pigmentation.css';
+   @import './_component/layout-position.css';
+   @import './_component/layout-shadow.css';
+   @import './_component/layout-display.css';
+   @import './_component/layout-float.css';
+
+
+/* ================ UTILITIE ================ */
+   @import './_container/footer.css';
+   @import './_container/header.css';
+   @import './_container/nav.css';
+   @import './_container/section.css';
+   @import './_container/wallpaper.css';
+   @import './_container/wardrobe.css';

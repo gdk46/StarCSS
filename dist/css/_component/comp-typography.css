@@ -1,0 +1,68 @@
+/*!
+ * Star CSS v1.0.0 - typography  
+ * Copyright 2020-2021 The Gleisson Neves (Authors)
+ * Licensed under MIT 
+ * http://opensource.org/licenses/MIT
+*/
+
+h1, h2, h3, h4, h5, h6,
+.title, .title-1, .title-2, .title-3, .title-4, .title-5, .title-6 {
+  margin-bottom: 0.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+
+.subtitle, .subtitle-1, .subtitle-2, .subtitle-3, .subtitle-4, .subtitle-5, .subtitle-6{
+   margin-bottom: 0.3rem;
+   color: #b8bec7;
+}
+
+.title{
+   font-size: 2rem;
+}
+.subtitle{
+   font-size: 1.25rem;
+}
+
+.title-1, .subtitle-1{
+   font-size: 3rem; 
+}
+.title-2, .subtitle-2{
+   font-size: 2.5rem;
+}
+.title-3, .subtitle-3{
+   font-size: 2rem;
+}
+.title-4, .subtitle-4{
+   font-size: 1.5rem;
+}
+
+.title-5, .subtitle-5{
+   font-size: 1.25rem;
+}
+.title-6, .subtitle-6{
+   font-size: 1rem;
+}
+
+.text-muted {color: #999;}
+
+.text-justify {text-align: justify;}
+.text-center {text-align: center;}
+.text-left {text-align: left;}
+.text-right {text-align: right;}
+.text-middle {vertical-align: middle;}
+
+.text-little {color:var(--is_little);}
+.text-primary {color:var(--is_primary);}
+.text-link {color:var(--is_link);}
+.text-info {color:var(--is_info);}
+.text-success {color:var(--is_success);}
+.text-warning {color:var(--is_warning);}
+.text-danger {color:var(--is_danger);}
+.text-dark {color:var(--is_dark);}
+.text-glitter {color:var(--is_glitter);}
+
+.bolder{
+   font-weight: bold;
+}

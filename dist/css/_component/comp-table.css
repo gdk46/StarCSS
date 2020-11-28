@@ -1,0 +1,100 @@
+/*!
+ * Star CSS v1.0.0 - table  
+ * Copyright 2020-2021 The Gleisson Neves (Authors)
+ * Licensed under MIT 
+ * http://opensource.org/licenses/MIT
+*/
+.table-responsive{
+	display: block;
+	width: 100%;
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+table, th, td {
+	border: none;
+  }
+  
+table {
+	width: 100%;
+	display: table;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+  
+table.striped tr {
+	border-bottom: none;
+}
+
+table.striped > tbody > tr:nth-child(odd) {
+	background-color: rgba(242, 242, 242, 0.5);
+}
+
+table.striped > tbody > tr > td {
+	border-radius: 0;
+}
+
+table.highlight > tbody > tr {
+	-webkit-transition: background-color .25s ease;
+	transition: background-color .25s ease;
+}
+
+table.highlight > tbody > tr:hover {
+	background-color: rgba(242, 242, 242, 0.5);
+}
+
+
+table.borderless thead tr,
+table.borderless tbody tr{
+	border-bottom: none;
+}
+
+
+table.centered thead tr th, table.centered tbody tr td {
+	text-align: center;
+}
+
+
+table.table-sm thead tr th, table.table-sm tbody tr td{
+	padding: .5rem;
+}
+
+
+table thead.primary tr th{
+	color: var(--is_primary);
+}
+
+
+tr {
+	border-bottom: 1px solid  #ebedf2;
+}
+
+td, th {
+	padding: 15px 5px;
+	display: table-cell;
+	text-align: left;
+	vertical-align: middle;
+	border-radius: 2px;
+	color: #515365;
+}
+
+
+
+.table-bordered th,
+.table-bordered td{
+	border: 1px solid #ebedf2;
+	color: #515365;
+}
+
+
+
+.table-controls {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.table-controls > li {
+    display: inline-block;
+    margin: 0 2px;
+    line-height: 1;
+}

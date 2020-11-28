@@ -1,0 +1,90 @@
+/*!
+ * Star CSS v1.0.0 - dotnav  
+ * Copyright 2020-2021 The Gleisson Neves (Authors)
+ * Licensed under MIT 
+ * http://opensource.org/licenses/MIT
+*/
+
+.dotnav,
+.dotnav-vertical
+{
+    list-style: none;
+}
+
+.dotnav li,
+.dotnav-vertical li
+{
+    width: .80rem;
+    height: .80rem;
+    border-radius: 50%;
+    background: transparent;
+    text-indent: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    border: 1px solid rgba(102,102,102,0.4);
+    transition: .2s ease-in-out;
+        transition-property: all;
+    transition-property: background-color,border-color;
+    margin: 2.5px;
+    cursor:pointer;
+}
+
+.dotnav li{
+    display: inline-block;
+}
+
+.dotnav li.is--active,
+.dotnav-vertical li.is--active
+{    
+    background-color: rgba(102,102,102,0.4);
+    border: transparent;
+}
+
+.dotnav li.is--active-primary,
+.dotnav-vertical li.is--active-primary
+{    
+    background-color: var(--is_primary);
+    border: transparent;
+}
+
+.dotnav li.is--active-link,
+.dotnav-vertical li.is--active-link
+{    
+    background-color: var(--is_link);
+    border: transparent;
+}
+
+.dotnav li.is--active-info,
+.dotnav-vertical li.is--active-info
+{    
+    background-color: var(--is_info);
+    border: transparent;
+}
+
+.dotnav li.is--active-warning,
+.dotnav-vertical li.is--active-warning
+{    
+    background-color: var(--is_warning);
+    border: transparent;
+}
+
+.dotnav li.is--active-danger,
+.dotnav-vertical li.is--active-danger
+{    
+    background-color: var(--is_danger);
+    border: transparent;
+}
+
+.dotnav li.is--active-dark,
+.dotnav-vertical li.is--active-dark
+{    
+    background-color: var(--is_dark);
+    border: transparent;
+}
+
+.dotnav li.is--active-glitter,
+.dotnav-vertical li.is--active-glitter
+{    
+    background-color: var(--is_glitter);
+    border: transparent;
+}

@@ -1,0 +1,58 @@
+/*!
+ * Star CSS v1.0.0 - breadcrumb  
+ * Copyright 2020-2021 The Gleisson Neves (Authors)
+ * Licensed under MIT 
+ * http://opensource.org/licenses/MIT
+*/
+.breadcrumb,
+.breadcrumb1
+{
+    width: 100%;
+}
+
+
+
+.breadcrumb li,
+.breadcrumb1 li,
+.breadcrumb2 li
+{
+    list-style: none;
+    display: inline-block;
+    margin-right: .2rem;
+    font-size: 1rem;
+}
+
+
+.breadcrumb li a,
+.breadcrumb1 li a,
+.breadcrumb2 li a
+{
+    color: #979797;
+}
+
+.breadcrumb li.is--active a,
+.breadcrumb1 li.is--active a,
+.breadcrumb2 li.is--active a
+{
+    color: var(--is_link);
+}
+
+
+.breadcrumb li:not(:first-child)::before,
+.breadcrumb1 li:not(:first-child)::before,
+.breadcrumb2 li:not(:first-child)::before{
+    color: #707070;
+    padding-right: .4rem;
+}
+
+.breadcrumb li:not(:first-child)::before{
+    content: "/";
+}
+
+.breadcrumb1 li:not(:first-child)::before{
+    content: ">";
+}
+
+.breadcrumb2 li:not(:first-child)::before{
+    content: "\02022";
+}

@@ -1,0 +1,62 @@
+/*!
+ * Star CSS v1.0.0 - overlay
+ * Copyright 2020-2021 The Gleisson Neves (Authors)
+ * Licensed under MIT 
+ * http://opensource.org/licenses/MIT
+*/
+
+
+.overlay-content{
+    position: relative;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+
+
+/*  
+    POSITION
+*/
+.overlay.overlay-cover, .orverlay.overlay-center,
+.overlay.overlay-bottom, .overlay.overlay-top{
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding:30px 20px;
+}
+.overlay-cover{
+    top: 0;
+    bottom: 0;
+}
+
+.overlay.overlay-bottom{
+    bottom: 0;    
+}
+
+.overlay.overlay-top{
+    top: 0;    
+}
+
+.overlay-center{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: max-content;
+    max-width: 100%;
+}
+
+
+
+/*  
+    COLOR
+*/
+.overlay-little {
+    background: rgba(255, 255, 255, 0.8);
+    color: rgba(34, 34, 34, 0.8);
+}
+
+.overlay-dark {
+    background: rgba(34, 34, 34, 0.8);
+    color: rgba(255,255,255,0.8);
+}
+

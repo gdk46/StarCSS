@@ -1,0 +1,146 @@
+/*!
+ * Star CSS v1.0.0 - Grid  
+ * Copyright 2020-2021 The Gleisson Neves (Authors)
+ * Licensed under MIT 
+ * http://opensource.org/licenses/MIT
+*/
+.container, .content
+{
+  width: 100%;
+}
+
+
+.container, .content,
+.s05,.s1,.s15,.s2,.s25,.s3,.s35,.s4,.s45,.s5,.s55,.s6,.s65,.s7,.s75,.s8,.s85,.s9,.s95,.s10,
+.sm05,.sm1,.sm15,.sm2,.sm25,.sm3,.sm35,.sm4,.sm45,.sm5,.sm55,.sm6,.sm65,.sm7,.sm75,.sm8,.sm85,.sm9,.sm95,.sm10
+.md05,.md1,.md15,.md2,.md25,.md3,.md35,.md4,.md45,.md5,.md55,.md6,.md65,.md7,.md75,.md8,.md85,.md9,.md95,.md10,.lg05,
+.lg1,.lg15,.lg2,.lg25,.lg3,.lg35,.lg4,.lg45,.lg5,.lg55,.lg6,.lg65,.lg7,.lg75,.lg8,.lg85,.lg9,.lg95,.lg10{
+   position: relative;
+}
+
+
+.s05{width:5%;}
+.s1{width:10%;}
+.s15{width:15%;}
+.s2{width:20%;}
+.s25{width:25%;}
+.s3{width:30%;}
+.s35{width:35%;}
+.s4{width:40%;}
+.s45{width:45%;}
+.s5{width:50%;}
+.s55{width:55%;}
+.s6{width:60%;}
+.s65{width:65%;}
+.s7{width:70%;}
+.s75{width:75%;}
+.s8{width:80%;}
+.s85{width:85%;}
+.s9{width:90%;}
+.s95{width:95%;}
+.s10{width:100%;}
+
+.offset5 {margin-left: 5%;}
+.offset10 {margin-left: 10%;}
+.offset15 {margin-left: 15%;}
+.offset20 {margin-left: 20%;}
+.offset25 {margin-left: 25%;}
+.offset30 {margin-left: 30%;}
+.offset35 {margin-left: 35%;}
+.offset40 {margin-left: 40%;}
+.offset45 {margin-left: 45%;}
+.offset50 {margin-left: 50%;}
+.offset55 {margin-left: 55%;}
+.offset60 {margin-left: 60%;}
+.offset65 {margin-left: 60%;}
+.offset70 {margin-left: 75%;}
+.offset75 {margin-left: 75%;}
+.offset80 {margin-left: 80%;}
+.offset85 {margin-left: 80%;}
+.offset90 {margin-left: 90%;}
+.offset95 {margin-left: 95%;}
+
+
+
+/*  */
+@media only screen and (min-width: 360px) {
+   .sm05{width: 5%; }
+   .sm1{width: 10%; }
+   .sm15{width: 15%; }
+   .sm2{width: 20%; }
+   .sm25{width: 25%; }
+   .sm3{width: 30%; }
+   .sm35{width: 35%; }
+   .sm4{width: 40%; }
+   .sm45{width: 45%; }
+   .sm5{width: 50%; }
+   .sm55{width: 55%; }
+   .sm6{width: 60%; }
+   .sm65{width: 65%; }
+   .sm7{width: 70%; }
+   .sm75{width: 75%; }
+   .sm8{width: 80%; }
+   .sm85{width: 85%; }
+   .sm9{width: 80%; }
+   .sm95{width: 95%; }
+   .sm10{width: 100%; }
+   .offset-sm--none{margin-left: none;}
+}
+
+@media only screen and (min-width: 720px) {
+   .md05{width: 5%; }
+   .md1{width: 10%; }
+   .md15{width: 15%; }
+   .md2{width: 20%; }
+   .md25{width: 25%; }
+   .md3{width: 30%; }
+   .md35{width: 35%; }
+   .md4{width: 40%; }
+   .md45{width: 45%; }
+   .md5{width: 50%; }
+   .md55{width: 55%; }
+   .md6{width: 60%; }
+   .md65{width: 65%; }
+   .md7{width: 70%; }
+   .md75{width: 75%; }
+   .md8{width: 80%; }
+   .md85{width: 85%; }
+   .md9{width: 90%; }
+   .md95{width: 95%; }
+   .md10{width: 100%; }
+   .offset-md--none{margin-left: none;}
+}
+
+@media only screen and (min-width: 960px) {
+   .lg05{width: 5%; }
+   .lg1{width: 10%; }
+   .lg15{width: 15%; }
+   .lg2{width: 20%; }
+   .lg25{width: 25%; }
+   .lg3{width: 30%; }
+   .lg35{width: 35%; }
+   .lg4{width: 40%; }
+   .lg45{width: 45%; }
+   .lg5{width: 50%; }
+   .lg55{width: 55%; }
+   .lg6{width: 60%; }
+   .lg65{width: 65%; }
+   .lg7{width: 70%; }
+   .lg75{width: 75%; }
+   .lg8{width: 80%; }
+   .lg85{width: 85%; }
+   .lg9{width: 90%; }
+   .lg95{width: 95%; }
+   .lg10{width: 100%; }
+   .offset-lg--none{margin-left: none;}
+}
+
+
+
+/*  */
+.sizefull {
+   width: 100%;
+   height: 100%;
+}
+.w-full {width: 100%;}
+.h-full {height: 100%;}

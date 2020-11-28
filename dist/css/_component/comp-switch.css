@@ -1,0 +1,104 @@
+/*!
+ * Star CSS v1.0.0 - switch  
+ * Copyright 2020-2021 The Gleisson Neves (Authors)
+ * Licensed under MIT 
+ * http://opensource.org/licenses/MIT
+*/
+  .checkbox-switch{
+    height: 0;
+    width: 0;
+    visibility: hidden;
+  }
+
+
+  .switch{
+    position: relative;
+    cursor: pointer;
+    width: 52px;
+    height: 27px;
+    background: grey;
+    border-radius: 100px;
+  }
+
+  .switch.switch--right{
+    float: right;
+  }
+
+  .switch::after{
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 90px;
+    transition: 0.3s;
+  }
+
+/* icons */
+.switch
+    .switch-icon-left{
+        font-size: .8rem;
+        position: absolute;
+        top: 4.5px;
+        left:7px;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        color: #ffffff;
+    }
+.switch
+    .switch-icon-right{
+        font-size: .8rem;
+        position: absolute;
+        top: 4.5px;
+        right:7px;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        color: #1a1a1a;
+    }
+
+
+ /* color */ 
+  .checkbox-switch:checked + .switch.switch-primary{
+    background-color: var(--is_primary);
+  }
+
+  .checkbox-switch:checked + .switch.switch-link{
+    background-color: var(--is_link);
+  }
+
+  .checkbox-switch:checked + .switch.switch-info{
+    background-color: var(--is_info);
+  }
+
+  .checkbox-switch:checked + .switch.switch-success{
+    background-color: var(--is_success);
+  }
+
+  .checkbox-switch:checked + .switch.switch-warning{
+    background-color: var(--is_warning);
+  }
+
+  .checkbox-switch:checked + .switch.switch-danger{
+    background-color: var(--is_danger);
+  }
+
+  .checkbox-switch:checked + .switch.switch-dark{
+    background-color: var(--is_dark);
+  }
+
+  .checkbox-switch:checked + .switch::after {
+    left: calc(100% - 5px);
+    transform: translateX(-100%);
+  }
+
+  .switch:active:after {
+    width: 45px;
+  } 
