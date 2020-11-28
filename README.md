@@ -76,11 +76,9 @@ starCSS/
 │   │   └── import.css
 │   │   │
 │   └── libs/
-│       ├── _settings/
+│       ├── animateCSS/
 │       │   └── *
-│       ├── _settings/
-│       │   └── *
-│       └── _settings/
+│       └── chart.js-2.9.4/
 │           └── *
 │   
 ├── .version
