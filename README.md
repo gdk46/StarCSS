@@ -3,7 +3,7 @@
   <br/>
   Framework Front-end intuitiva, ágil, rápido e fácil para desenvolvimento na web.
   <br/>
-  <a href="https://github.com/gdk46/componentes-front-end-web/tree/main/framework-star-css">Veja a documentação completa</a>
+  <a href="https://github.com/gdk46/StarAdmin">Veja a documentação completa</a>
   
   <br/>
   <a href="https://github.com/gdk46/StarCSS/issues">Reportar bug</a>
@@ -104,7 +104,7 @@ Para transparência em nosso ciclo de lançamento e no esforço para manter a co
 Consulte a seção Releases de nosso projeto GitHub para registros de alterações de cada versão de lançamento do Start CSS. 
 
 ## Criador
-### Gleisson Neves
+#### Gleisson Neves
   * https://github.com/gdk46
 
 
