@@ -17,11 +17,12 @@
   border-radius: 0.25rem;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  background-color: #f4f2f2;
+  background-color: var(--default);
 }
 
 .badge.badge-primary {
   background-color: var(--is_primary);
+  color: var(--little);
 }
 
 .badge.badge-link {
