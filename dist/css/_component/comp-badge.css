@@ -27,30 +27,37 @@
 
 .badge.badge-link {
   background-color: var(--is_link);
+  color: var(--little);
 }
 
 .badge.badge-info {
   background-color: var(--is_info);
+  color: var(--little);
 }
 
 .badge.badge-success {
   background-color: var(--is_success);
+  color: var(--little);
 }
 
 .badge.badge-warning {
   background-color: var(--is_warning);
+  color: var(--little);
 }
 
 .badge.badge-danger {
   background-color: var(--is_danger);
+  color: var(--little);
 }
 
 .badge.badge-dark {
   background-color: var(--is_dark);
+  color: var(--little);
 }
 
 .badge.badge-glitter {
   background-color: var(--is_glitter);
+  color: var(--little);
 }
 
 .badge.badge-primary-outiline {
