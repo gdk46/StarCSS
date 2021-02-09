@@ -54,41 +54,49 @@
 }
 
 .badge.badge-primary-outiline {
+  background-color: transparent;
   border: 1px solid var(--is_primary);
   color: var(--is_primary);
 }
 
 .badge.badge-link-outiline {
+  background-color: transparent;
   border: 1px solid var(--is_link);
   color: var(--is_link);
 }
 
 .badge.badge-info-outiline {
+  background-color: transparent;
   border: 1px solid var(--is_info);
   color: var(--is_info);
 }
 
 .badge.badge-success-outiline {
+  background-color: transparent;
   border: 1px solid var(--is_success);
   color: var(--is_success);
 }
 
 .badge.badge-warning-outiline {
+  background-color: transparent;
   border: 1px solid var(--is_warning);
   color: var(--is_warning);
 }
 
 .badge.badge-danger-outiline {
+  background-color: transparent;
   border: 1px solid var(--is_danger);
   color: var(--is_danger);
 }
 
 .badge.badge-dark-outiline {
+  background-color: transparent;
   border: 1px solid var(--is_dark);
   color: var(--is_dark);
 }
 
 .badge.badge-glitter-outiline {
+  background-color: transparent;
   border: 1px solid var(--is_glitter);
   color: var(--is_glitter);
 }
