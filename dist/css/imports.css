@@ -4,40 +4,32 @@
       - Components
 */
 /* ================ SETTINGS ================ */
-   @import './_settings/badyBg.css';
-   @import './_settings/brecks.css';
-   @import './_settings/defaultColorInput.css';
-   @import './_settings/defaultColorAlert.css';
-   @import './_settings/defaultColorButton.css';
-   @import './_settings/defaultColorLayout.css';
-   @import './_settings/defaultColorNav.css';
-   @import './_settings/defaultColorFooter.css';
-   @import './_settings/defaultColorCard.css';
-   @import './_settings/gaps.css';
-   @import './_settings/sizefull.css';
-
+@import './_settings/settings.css';
 
 
 /* ================ ELEMENTS ================ */
-   @import './_element/reset.css';
+@import './_element/reset.css';
 
 
 /* ================ COMPONENTS ================ */
-   /* ---------- COMPONENTS ---------- */
-   @import './_component/comp-badge.css';
-   @import './_component/comp-blockquote.css';
-   @import './_component/comp-breadcrumb.css';
-   @import './_component/comp-button.css';
-   @import './_component/comp-divider.css';
-   @import './_component/comp-dotnav.css';
-   @import './_component/comp-flex.css';
-   @import './_component/comp-float.css';
-   @import './_component/comp-form.css';
-   @import './_component/comp-grid.css';
-   @import './_component/comp-overlay.css';
-   @import './_component/comp-preloader.css';
-   @import './_component/comp-progress.css';
-   @import './_component/comp-shadow.css';
-   @import './_component/comp-switch.css';
-   @import './_component/comp-table.css';
-   @import './_component/comp-typography.css';
+/* ---------- COMPONENTS ---------- */
+@import './_component/comp-badge.css';
+@import './_component/comp-blockquote.css';
+@import './_component/comp-breadcrumb.css';
+@import './_component/comp-button.css';
+@import './_component/comp-color.css';
+@import './_component/comp-code.css';
+@import './_component/comp-divider.css';
+@import './_component/comp-dotnav.css';
+@import './_component/comp-flex.css';
+@import './_component/comp-float.css';
+@import './_component/comp-form.css';
+@import './_component/comp-grid.css';
+@import './_component/comp-help.css';
+@import './_component/comp-overlay.css';
+@import './_component/comp-preloader.css';
+@import './_component/comp-progress.css';
+@import './_component/comp-shadow.css';
+@import './_component/comp-switch.css';
+@import './_component/comp-table.css';
+@import './_component/comp-typography.css';

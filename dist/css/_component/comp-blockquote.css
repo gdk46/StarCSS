@@ -4,44 +4,45 @@
  * Licensed under MIT 
  * http://opensource.org/licenses/MIT
 */
-blockquote {
+.blockquote {
   margin: 20px 0;
   padding-left: 1rem;
-  border-left: 3px solid rgb(155, 155, 155);
+  border-left: 3px solid var(--grey-lighten-4);
   font-weight: 300;
 }
 
 /* ========================
         COLORS 
 =========================== */
-blockquote.blockquote-primary {
-  border-left: 3px solid var(--is_primary);
+.blockquote-primary {
+  border-left: 3px solid var(--primary);
 }
 
-blockquote.blockquote-link {
-  border-left: 3px solid var(--is_link);
+.blockquote-link {
+  border-left: 3px solid var(--link);
 }
 
-blockquote.blockquote-info {
-  border-left: 3px solid var(--is_info);
+.blockquote-info {
+  border-left: 3px solid var(--info);
 }
 
-blockquote.blockquote-success {
-  border-left: 3px solid var(--is_success);
+.blockquote-success {
+  border-left: 3px solid var(--success);
 }
 
-blockquote.blockquote-warning {
-  border-left: 3px solid var(--is_warning);
+.blockquote-warning {
+  border-left: 3px solid var(--warning);
 }
 
-blockquote.blockquote-danger {
-  border-left: 3px solid var(--is_danger);
+.blockquote-danger {
+  border-left: 3px solid var(--danger);
 }
 
-blockquote.blockquote-dark {
-  border-left: 3px solid var(--is_dark);
+.blockquote-danger {
+  border-left: 3px solid var(--danger);
 }
 
-blockquote.blockquote-glitter {
-  border-left: 3px solid var(--is_glitter);
+.blockquote-dark {
+  border-left: 3px solid var(--dark);
 }
+

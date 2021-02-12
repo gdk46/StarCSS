@@ -5,385 +5,135 @@
  * http://opensource.org/licenses/MIT
 */
 
-.bt{
-   display: inline-block;
-   background-color: #f0efef;
-   padding: .35rem 1rem;
-   font-size: 1rem;
-   text-align: center;
-   line-height: 1.5;   
-   border-radius: .25rem;
-   transition: color .10s ease-in-out,background-color .10s ease-in-out,border-color .10s ease-in-out,box-shadow .10s ease-in-out;
-   border: 1px solid transparent;
+.btn {
+  display: inline-block;
+  background-color: var(--grey-lighten-4);
+  padding: 0.35rem 1rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.5;
+  transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out,
+    border-color 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+  border: 1px solid transparent;
 }
 
-.bt:focus{outline: none;}
-.bt:disabled{
-   opacity:.8;
-   cursor: default;
+.btn:focus {
+  outline: none;
 }
 
-   /* ---- Tamanho ---- */
-   .bt.bt-sm{
-      padding: .25rem .5rem;
-      font-size: .875rem;
-      border-radius: .2rem;
-   }
-   .bt.bt-md{
-      padding: .25rem 1.5rem;
-      font-size: 1.25rem;
-      border-radius: .3rem;
-   }
-
-   .bt.bt-lg{
-      padding: .25rem 2rem;
-      font-size: 1.5rem;
-   }
-
-
-
-/*                */
-/* ==== COLORS ====*/
-/*                */
-.bt.bt-primary{
-   background-color: var(--is_primary);
+/* ---- Tamanho ---- */
+.btn.btn-sm {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  border-radius: 0.2rem;
 }
-   .bt.bt-primary:hover{
-      background-color: var(--is_primary--hover);
-   }
-
-
-.bt.bt-link{
-   background-color: var(--is_link);
-}
-   .bt.bt-link:hover{
-      background-color: var(--is_link--hover);
-   }
-
-
-.bt.bt-info{
-   background-color: var(--is_info);
-}
-   .bt.bt-info:hover{
-      background-color: var(--is_info--hover);
-   }
-
-
-.bt.bt-success{
-   background-color: var(--is_success);
-}
-   .bt.bt-success:hover{
-      background-color: var(--is_success--hover);
-   }
-
-
-.bt.bt-warning{
-   background-color: var(--is_warning);
-}
-   .bt.bt-warning:hover{
-      background-color: var(--is_warning--hover);
-   }
-
-
-.bt.bt-danger{
-   background-color: var(--is_danger);
-}
-   .bt.bt-danger:hover{
-      background-color: var(--is_danger--hover);
-   }
-
-
-.bt.bt-dark{
-   background-color: var(--is_dark);
-}
-   .bt.bt-dark:hover{
-      background-color: var(--is_dark--hover);
-   }
-
-
-.bt.bt-glitter{
-   background-color: var(--is_glitter);
-}
-   .bt.bt-glitter:hover{
-      background-color: var(--is_glitter--hover);
-   }
-
-
-
-/* - =====/===== Format button =====\===== - */
-.bt.bt-primary, .bt.bt-link, .bt.bt-info,
-.bt.bt-success, .bt.bt-warning, .bt.bt-danger,
-.bt.bt-dark, .bt.bt-glitter
-{
-   border-color: transparent;
-   color: #fff;
-   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.144);
-   transition: 0.3s all;
+.btn.btn-md {
+  padding: 0.25rem 1.5rem;
+  font-size: 1.25rem;
+  border-radius: 0.3rem;
 }
 
-
-/* - =====/===== Hover button =====\===== - */
-.bt.bt-primary:hover, .bt.bt-link:hover, .bt.bt-info:hover,
-.bt.bt-success:hover, .bt.bt-warning:hover, .bt.bt-danger:hover,
-.bt.bt-dark:hover, .bt.bt-glitter:hover
-{
-   border-color: transparent;
-   transition: 0.5s all;
+.btn.btn-lg {
+  padding: 0.25rem 2rem;
+  font-size: 1.5rem;
 }
 
-
-/* - =====/===== Active button =====\===== - */
-.bt.bt-primary:active, .bt.bt-link:active, .bt.bt-info:active,
-.bt.bt-success:active, .bt.bt-warning:active, .bt.bt-danger:active,
-.bt.bt-dark:active, .bt.bt-glitter:active
-{
-   box-shadow:
-      0 6px 10px 0 rgba(0, 0, 0, 0.137),
-      0 1px 18px 0 rgba(0, 0, 0, 0.123),
-      0 3px 5px -1px rgba(0, 0, 0, 0.075);
-   opacity: 0.9;
-   transition: all 0.25s linear;
+/* ---- active button ---- */
+.btn:active {
+  opacity: 0.8;
+  transition: all 0.25s linear;
 }
 
-
-/* 
-*
-*OUTLINE 
-*
-*/
-   /*                */
-/* ==== OUTLINE BUTTONS ====*/
-   /*                */
-
-.bt.bt-primary-outline{
-   border:1px solid var(--is_primary);
-}
-   .bt.bt-primary-outline:hover{
-      background-color: var(--is_primary);
-   }
-   
-
-.bt.bt-link-outline{
-   border:1px solid var(--is_link);
-}
-   .bt.bt-link-outline:hover{
-      background-color: var(--is_link);
-   }
-
-
-.bt.bt-info-outline{
-   border:1px solid var(--is_info);
-}
-   .bt.bt-info-outline:hover{
-      background-color: var(--is_info);
-   }   
-
-
-.bt.bt-success-outline{
-   border:1px solid var(--is_success);
-}
-   .bt.bt-success-outline:hover{
-      background-color: var(--is_success);
-   }
-   
-
-.bt.bt-warning-outline{
-   border:1px solid var(--is_warning);
-}
-   .bt.bt-warning-outline:hover{
-      background-color: var(--is_warning);
-   }
-   
-
-.bt.bt-danger-outline{
-   border:1px solid var(--is_danger);
-}
-   .bt.bt-danger-outline:hover{
-      background-color: var(--is_danger);
-   }
-   
-
-.bt.bt-dark-outline{
-   border:1px solid var(--is_dark);
-}
-   .bt.bt-dark-outline:hover{
-      background-color: var(--is_dark);
-   }
-   
-
-.bt.bt-glitter-outline{
-   border:1px solid var(--is_glitter);
-}
-   .bt.bt-glitter-outline:hover{
-      background-color: var(--is_glitter);
-   }
-
-
-   .bt.bt-primary-outline, .bt.bt-link-outline, .bt.bt-info-outline,
-   .bt.bt-success-outline, .bt.bt-warning-outline,.bt.bt-danger-outline,
-   .bt.bt-dark-outline, .bt.bt-glitter-outline
-   {
-      background-color: transparent;
-      color: rgba(0,0,0,.7);
-   }
-
-
-
-   .bt.bt-primary-outline:hover, .bt.bt-link-outline:hover, .bt.bt-info-outline:hover,
-   .bt.bt-success-outline:hover, .bt.bt-warning-outline:hover,.bt.bt-danger-outline:hover,
-   .bt.bt-dark-outline:hover, .bt.bt-glitter-outline:hover
-   {
-      border-color: transparent;
-      color: #fff;
-      transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-   }
-
-
-
-   .bt.bt-primary-outline:active, .bt.bt-link-outline:active,
-   .bt.bt-info-outline:active, .bt.bt-success-outline:active,
-   .bt.bt-warning-outline:active, .bt.bt-danger-outline:active,
-   .bt.bt-dark-outline:active, .bt.bt-glitter-outline:active{
-      opacity:.7;
-   }
-
-   
-   
-   /*                */
-/* ==== FLOAT BUTTONS ====*/
-   /*                */                
-.float{
-   position: relative;
-   display: inline-block;
-   box-sizing: border-box;
-   background-clip: padding-box;
-   padding: 0;
-   margin: 0;
-   font: inherit;
-   color: inherit;
-   background: transparent;
-   border: none;
-   line-height: normal;
-   font-weight: 400;
-   cursor: pointer;
-   -webkit-user-select: none;
-      -moz-user-select: none;
-       -ms-user-select: none;
-           user-select: none;
-   width: 56px;
-   height: 56px;
-   text-decoration: none;
-   font-size: 25px;
-   line-height: 56px;
-   letter-spacing: 0;
-   vertical-align: middle;
-   text-align: center;
-   border: 0 solid currentColor;
-   border-radius: 50%;
-   overflow: hidden;
-   box-shadow: 0 3px 6px rgba(14, 13, 13, 0.24);
-   transition: all 0.1s linear;
-   background-color: transparent;
+/* ---- variation button ---- */
+.btn-group {
+  display: inline-flex;
+  vertical-align: middle;
+  position: relative;
+  margin: 0.25rem;
 }
 
-.float:disabled{
-   opacity:.8;
-   cursor: default;
+.btn-group-radius .btn:first-child {
+  border-left: none;
+  margin-left: 0;
+  border-top-left-radius: 0.28571429rem;
+  border-bottom-left-radius: 0.28571429rem;
 }
 
-
-.float > i{
-   font-size: 1.3rem;
-   line-height: inherit;
+.btn-group-radius .btn:last-child {
+  border-right: none;
+  margin-right: 0;
+  border-top-right-radius: 0.28571429rem;
+  border-bottom-right-radius: 0.28571429rem;
 }
 
-
-
-/*                */
-/* ==== COLORS ====*/
-/*                */
-.float-primary{
-   background-color: var(--is_primary);
-   
+/* Float */
+.btn-float {
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  background-clip: padding-box;
+  padding: 0;
+  margin: 0;
+  line-height: normal;
+  font-weight: 400;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 56px;
+  height: 56px;
+  font-size: 25px;
+  line-height: 56px;
+  text-decoration: none;
+  letter-spacing: 0;
+  vertical-align: middle;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0 3px 6px rgba(14, 13, 13, 0.24);
 }
-   .float-primary:hover{
-      background-color: var(--is_primary--hover);
-   }
 
-   
-.float-link{
-   background-color: var(--is_link);
+.btn-float-sm {
+  width: 36px;
+  height: 36px;
 }
-   .float-link:hover{
-      background-color: var(--is_link--hover);
-   }
 
-
-.float-info{
-   background-color: var(--is_info);
-    border-color: transparent;
-    color: #fff;
+.btn-float-sm > i {
+  font-size: 0.4rem;
+  line-height: inherit;
 }
-   .float-info:hover{
-      background-color: var(--is_info--hover);
-   }
 
-
-.float-success{
-   background-color: var(--is_success);
+.btn-float-md {
+  width: 46px;
+  height: 46px;
 }
-   .float-success:hover{
-      background-color: var(--is_success--hover);
-   }
 
-
-.float-warning{
-   background-color: var(--is_warning);
+.btn-float-md {
+  font-size: 1.3rem;
+  line-height: inherit;
 }
-   .float-warning:hover{
-      background-color: var(--is_warning--hover);
-   }
 
-
-.float-danger{
-   background-color: var(--is_danger);
+.btn-float-lg {
+  width: 66px;
+  height: 66px;
 }
-   .float-danger:hover{
-      background-color: var(--is_danger--hover);
-   }
 
-
-.float-dark{
-   background-color: var(--is_dark);
+.btn-float-lg > i {
+  font-size: 1.5rem;
+  line-height: inherit;
 }
-   .float-dark:hover{
-      background-color: var(--is_dark--hover);
-   }
 
-
-.float-glitter{
-   background-color: var(--is_glitter);
+/* ---- Generic ---- */
+.btn.btn-pill {
+  padding-right: 1em;
+  padding-left: 1em;
+  border-radius: 10rem;
 }
-   .float-glitter:hover{
-      background-color: var(--is_glitter--hover);
-   }
 
-
-
-   .float-primary, .float-link,
-   .float-info, .float-success, .float-warning, 
-   .float-danger, .float-dark, .float-glitter
-   {
-      border-color: transparent;
-      color: #fff; 
-   }
-
-
-
-   .float-primary:hover, .float-link:hover,
-   .float-info:hover, .float-success:hover, .float-warning:hover, 
-   .float-danger:hover, .float-dark:hover, .float-glitter:hover
-   {
-      border-color: transparent;
-      transition: 0.5s all;
-   }
+.btn.btn-otl {
+  background-color: transparent;
+  border-width: 1px;
+  border-style: solid;
+}

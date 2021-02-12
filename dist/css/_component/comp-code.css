@@ -1,0 +1,23 @@
+.class {
+  color: var(--deep-purple-lighten-1);
+}
+
+.id {
+  color: var(--grey-darken-4);
+}
+
+.tag {
+  color: var(--light-green-darken-3);
+}
+
+.attr {
+  color: var(--orange-darken-2);
+}
+
+.attr-class {
+  color: var(--red-accent-3);
+}
+
+.attr-id {
+  color: var(--blue-darken-1);
+}
