@@ -338,7 +338,17 @@
   --grey-darken-2: #616161;
   --grey-darken-1: #757575;
 
-  /*>  */
+  /*> Colors main*/
+  --primary: var(--blue-darken-1);
+  --success: var(--light-green-accent-4);
+  --info: var(--cyan);
+  --warning: var(--orange);
+  --danger: var(--red-accent-3);
+  --light: var(--cyan-lighten-5);
+  --dark: var(--grey-darken-4);
+  
+
+  /*> Media Queries */
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
