@@ -337,7 +337,7 @@
   --grey-darken-3: #424242;
   --grey-darken-2: #616161;
   --grey-darken-1: #757575;
-
+  
   /*> Colors main*/
   --primary: var(--blue-darken-1);
   --success: var(--light-green-accent-4);
