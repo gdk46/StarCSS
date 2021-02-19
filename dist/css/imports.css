@@ -4,32 +4,32 @@
       - Components
 */
 /* ================ SETTINGS ================ */
-@import './_settings/settings.css';
+@import './settings/settings.css';
 
 
 /* ================ ELEMENTS ================ */
-@import './_element/reset.css';
+@import './element/reset.css';
 
 
 /* ================ COMPONENTS ================ */
 /* ---------- COMPONENTS ---------- */
-@import './_component/comp-badge.css';
-@import './_component/comp-blockquote.css';
-@import './_component/comp-breadcrumb.css';
-@import './_component/comp-button.css';
-@import './_component/comp-color.css';
-@import './_component/comp-code.css';
-@import './_component/comp-divider.css';
-@import './_component/comp-dotnav.css';
-@import './_component/comp-flex.css';
-@import './_component/comp-float.css';
-@import './_component/comp-form.css';
-@import './_component/comp-grid.css';
-@import './_component/comp-help.css';
-@import './_component/comp-overlay.css';
-@import './_component/comp-preloader.css';
-@import './_component/comp-progress.css';
-@import './_component/comp-shadow.css';
-@import './_component/comp-switch.css';
-@import './_component/comp-table.css';
-@import './_component/comp-typography.css';
+@import './component/comp-badge.css';
+@import './component/comp-blockquote.css';
+@import './component/comp-breadcrumb.css';
+@import './component/comp-button.css';
+@import './component/comp-color.css';
+@import './component/comp-code.css';
+@import './component/comp-divider.css';
+@import './component/comp-dotnav.css';
+@import './component/comp-flex.css';
+@import './component/comp-float.css';
+@import './component/comp-form.css';
+@import './component/comp-grid.css';
+@import './component/comp-help.css';
+@import './component/comp-overlay.css';
+@import './component/comp-preloader.css';
+@import './component/comp-progress.css';
+@import './component/comp-shadow.css';
+@import './component/comp-switch.css';
+@import './component/comp-table.css';
+@import './component/comp-typography.css';
