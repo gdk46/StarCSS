@@ -1,0 +1,33 @@
+/*  sctuture default - ITCSS
+- Settings
+   - Elements
+      - Atomic
+      - Components
+*/
+/* ================ SETTINGS ================ */
+@import './settings/settings.css';
+
+
+/*-> ELEMENTS */
+@import './element/reset.css';
+
+
+
+
+/*-> ATOMIC */
+
+
+/*-> COMPONENTS */
+   @import './component/comp-badge.css';
+   @import './component/comp-blockquote.css';
+   @import './component/comp-breadcrumb.css';
+   @import './component/comp-button.css';
+   @import './component/comp-code.css';
+   @import './component/comp-divider.css';
+   @import './component/comp-dotnav.css';
+   @import './component/comp-form.css';
+   @import './component/comp-overlay.css';
+   @import './component/comp-preloader.css';
+   @import './component/comp-progress.css';
+   @import './component/comp-switch.css';
+   @import './component/comp-table.css';

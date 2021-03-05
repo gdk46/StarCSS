@@ -1,7 +1,7 @@
 /*!
  * Star CSS v1.0.0 - Grid  
  * Copyright 2020-2021 The Gleisson Neves (Authors)
- * Licensed under MIT 
+ * Licensed under MIT
  * http://opensource.org/licenses/MIT
 */
 .container,
@@ -50,7 +50,8 @@
 .sm85,
 .sm9,
 .sm95,
-.sm10 .md05,
+.sm10,
+.md05,
 .md1,
 .md15,
 .md2,
@@ -213,7 +214,65 @@
 }
 
 /*  */
-@media only screen and (min-width: 360px) {
+@media only screen and (min-width: var(--break-sm)) {
+  .sm-offset5 {
+    margin-left: 5%;
+  }
+  .sm-offset10 {
+    margin-left: 10%;
+  }
+  .sm-offset15 {
+    margin-left: 15%;
+  }
+  .sm-offset20 {
+    margin-left: 20%;
+  }
+  .sm-offset25 {
+    margin-left: 25%;
+  }
+  .sm-offset30 {
+    margin-left: 30%;
+  }
+  .sm-offset35 {
+    margin-left: 35%;
+  }
+  .sm-offset40 {
+    margin-left: 40%;
+  }
+  .sm-offset45 {
+    margin-left: 45%;
+  }
+  .sm-offset50 {
+    margin-left: 50%;
+  }
+  .sm-offset55 {
+    margin-left: 55%;
+  }
+  .sm-offset60 {
+    margin-left: 60%;
+  }
+  .sm-offset65 {
+    margin-left: 60%;
+  }
+  .sm-offset70 {
+    margin-left: 75%;
+  }
+  .sm-offset75 {
+    margin-left: 75%;
+  }
+  .sm-offset80 {
+    margin-left: 80%;
+  }
+  .sm-offset85 {
+    margin-left: 80%;
+  }
+  .sm-offset90 {
+    margin-left: 90%;
+  }
+  .sm-offset95 {
+    margin-left: 95%;
+  }
+  
   .sm05 {
     width: 5%;
   }
@@ -280,6 +339,65 @@
 }
 
 @media only screen and (min-width: 720px) {
+  
+  .md-offset5 {
+    margin-left: 5%;
+  }
+  .md-offset10 {
+    margin-left: 10%;
+  }
+  .md-offset15 {
+    margin-left: 15%;
+  }
+  .md-offset20 {
+    margin-left: 20%;
+  }
+  .md-offset25 {
+    margin-left: 25%;
+  }
+  .md-offset30 {
+    margin-left: 30%;
+  }
+  .md-offset35 {
+    margin-left: 35%;
+  }
+  .md-offset40 {
+    margin-left: 40%;
+  }
+  .md-offset45 {
+    margin-left: 45%;
+  }
+  .md-offset50 {
+    margin-left: 50%;
+  }
+  .md-offset55 {
+    margin-left: 55%;
+  }
+  .md-offset60 {
+    margin-left: 60%;
+  }
+  .md-offset65 {
+    margin-left: 60%;
+  }
+  .md-offset70 {
+    margin-left: 75%;
+  }
+  .md-offset75 {
+    margin-left: 75%;
+  }
+  .md-offset80 {
+    margin-left: 80%;
+  }
+  .md-offset85 {
+    margin-left: 80%;
+  }
+  .md-offset90 {
+    margin-left: 90%;
+  }
+  .md-offset95 {
+    margin-left: 95%;
+  }
+
   .md05 {
     width: 5%;
   }

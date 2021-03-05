@@ -377,4 +377,9 @@
 
   /*> radius */
   --radius-sm: 0.25rem;
+
+  --break-sm: 540px;
+  --break-md: 720px;
+  --break-lg: 960px;
+  --break-xl: 1140px;
 }
