@@ -1,3 +1,403 @@
-.radius-sm {
-    border-radius: var(--radius-sm);
-}
+/*-----------------------------------------------------------------------
+/*  Star CSS v1.0.0 - border 
+/*  Description : Creative Resume fremawork
+/*  Version     : 1.0
+/*  Copyright 2020-2021 The Gleisson Neves (Authors)
+/*  Licensed under MIT 
+/*  http://opensource.org/licenses/MIT
+/*-----------------------------------------------------------------------
+/*  Glossary
+/*  l = top 
+/*  d = darken
+/*  d = darken
+/*  a = accent
+/*-----------------------------------------------------------------------
+
+1. RESET
+2. SIZE
+3. ALIGN
+4. WEIGHT
+5. OPACITY
+6. DECORATION
+7. TRANSFORM
+8. WORD BREAK
+9. BORDER COLOR
+ 9.1 PRIMARY
+ 9.2 RED
+ 9.3 PINK
+ 9.4 PURPLE
+ 9.5 DEEP PURPLE
+ 9.6 INDIGO
+ 9.7 BLUE
+ 9.8 LIGHT BLUE
+ 9.9 CYAN
+ 9.10 TEAL
+ 9.11 GREEN
+ 9.12 LIGHT GREEN
+ 9.13 LIME
+ 9.14 YELLOW
+ 9.15 AMBER
+ 9.16 ORANGE
+ 9.17 DEEP ORANGE
+ 9.18 BROWN
+ 9.19 BLUE GREY
+ 9.20 GREY
+-----------------------------------------------------------------------*/
+
+
+/*---------------------------------------------------------------------*/
+/*  9. BORDER COLOR
+/*   9.1 PRIMARY
+/*---------------------------------------------------------------------*/
+.border-black {border-color: var(--black);}
+.border-white {border-color: var(--white);}
+.border-transparent {border-color:var(--transparent)}
+
+/*---------------------------------------------------------------------*/
+/*  9.2 RED
+/*---------------------------------------------------------------------*/
+/*> red | lighten | darken | accent */
+.border-red {border-color: var(--red);}
+.border-red-l-5 {border-color: var(--red-lighten-5);}
+.border-red-l-4 {border-color: var(--red-lighten-4);}
+.border-red-l-3 {border-color: var(--red-lighten-3);}
+.border-red-l-2 {border-color: var(--red-lighten-2);}
+.border-red-l-1 {border-color: var(--red-lighten-1);}
+.border-red-d-4 {border-color: var(--red-darken-4);}
+.border-red-d-3 {border-color: var(--red-darken-3);}
+.border-red-d-2 {border-color: var(--red-darken-2);}
+.border-red-d-1 {border-color: var(--red-darken-1);}
+.border-red-a-4 {border-color: var(--red-accent-4);}
+.border-red-a-3 {border-color: var(--red-accent-3);}
+.border-red-a-2 {border-color: var(--red-accent-2);}
+.border-red-a-1 {border-color: var(--red-accent-1);}
+
+/*---------------------------------------------------------------------*/
+/*  9.3 PINK
+/*---------------------------------------------------------------------*/
+/*> pink | lighten | darken | accent */
+.border-pink {border-color: var(--pink);}
+.border-pink-l-5 {border-color: var(--pink-lighten-5);}
+.border-pink-l-4 {border-color: var(--pink-lighten-4);}
+.border-pink-l-3 {border-color: var(--pink-lighten-3);}
+.border-pink-l-2 {border-color: var(--pink-lighten-2);}
+.border-pink-l-1 {border-color: var(--pink-lighten-1);}
+.border-pink-d-4 {border-color: var(--pink-darken-4);}
+.border-pink-d-3 {border-color: var(--pink-darken-3);}
+.border-pink-d-2 {border-color: var(--pink-darken-2);}
+.border-pink-d-1 {border-color: var(--pink-darken-1);}
+.border-pink-a-4 {border-color: var(--pink-accent-4);}
+.border-pink-a-3 {border-color: var(--pink-accent-3);}
+.border-pink-a-2 {border-color: var(--pink-accent-2);}
+.border-pink-a-1 {border-color: var(--pink-accent-1);}
+
+/*---------------------------------------------------------------------*/
+/*  9.4 PURPLE
+/*---------------------------------------------------------------------*/
+/*> purple | lighten | darken | accent */
+.border-purple {border-color: var(--purple);}
+.border-purple-l-5 {border-color: var(--purple-lighten-5);}
+.border-purple-l-4 {border-color: var(--purple-lighten-4);}
+.border-purple-l-3 {border-color: var(--purple-lighten-3);}
+.border-purple-l-2 {border-color: var(--purple-lighten-2);}
+.border-purple-l-1 {border-color: var(--purple-lighten-1);}
+.border-purple-d-4 {border-color: var(--purple-darken-4);}
+.border-purple-d-3 {border-color: var(--purple-darken-3);}
+.border-purple-d-2 {border-color: var(--purple-darken-2);}
+.border-purple-d-1 {border-color: var(--purple-darken-1);}
+.border-purple-a-4 {border-color: var(--purple-accent-4);}
+.border-purple-a-3 {border-color: var(--purple-accent-3);}
+.border-purple-a-2 {border-color: var(--purple-accent-2);}
+.border-purple-a-1 {border-color: var(--purple-accent-1);}
+
+/*---------------------------------------------------------------------*/
+/*  9.5 DEEP PURPLE
+/*---------------------------------------------------------------------*/
+/*> deep | lighten | darken | accent */
+.border-deep-purple {border-color: var(--deep-purple);}
+.border-deep-purple-l-5 {border-color: var(--deep-purple-lighten-5);}
+.border-deep-purple-l-4 {border-color: var(--deep-purple-lighten-4);}
+.border-deep-purple-l-3 {border-color: var(--deep-purple-lighten-3);}
+.border-deep-purple-l-2 {border-color: var(--deep-purple-lighten-2);}
+.border-deep-purple-l-1 {border-color: var(--deep-purple-lighten-1);}
+.border-deep-purple-d-4 {border-color: var(--deep-purple-darken-4);}
+.border-deep-purple-d-3 {border-color: var(--deep-purple-darken-3);}
+.border-deep-purple-d-2 {border-color: var(--deep-purple-darken-2);}
+.border-deep-purple-d-1 {border-color: var(--deep-purple-darken-1);}
+.border-deep-purple-a-4 {border-color: var(--deep-purple-accent-4);}
+.border-deep-purple-a-3 {border-color: var(--deep-purple-accent-3);}
+.border-deep-purple-a-2 {border-color: var(--deep-purple-accent-2);}
+.border-deep-purple-a-1 {border-color: var(--deep-purple-accent-1);}
+
+/*---------------------------------------------------------------------*/
+/*  9.6 INDIGO
+/*---------------------------------------------------------------------*/
+/*> indigo | lighten | darken | accent */
+.border-indigo {border-color: var(--indigo);}
+.border-indigo-l-5 {border-color: var(--indigo-lighten-5);}
+.border-indigo-l-4 {border-color: var(--indigo-lighten-4);}
+.border-indigo-l-3 {border-color: var(--indigo-lighten-3);}
+.border-indigo-l-2 {border-color: var(--indigo-lighten-2);}
+.border-indigo-l-1 {border-color: var(--indigo-lighten-1);}
+.border-indigo-d-4 {border-color: var(--indigo-darken-4);}
+.border-indigo-d-3 {border-color: var(--indigo-darken-3);}
+.border-indigo-d-2 {border-color: var(--indigo-darken-2);}
+.border-indigo-d-1 {border-color: var(--indigo-darken-1);}
+.border-indigo-a-4 {border-color: var(--indigo-accent-4);}
+.border-indigo-a-3 {border-color: var(--indigo-accent-3);}
+.border-indigo-a-2 {border-color: var(--indigo-accent-2);}
+.border-indigo-a-1 {border-color: var(--indigo-accent-1);}
+
+/*---------------------------------------------------------------------*/
+/*  9.7 BLUE
+/*---------------------------------------------------------------------*/
+/*> blue | lighten | darken | accent */
+.border-blue {border-color: var(--blue);}
+.border-blue-l-5 {border-color: var(--blue-lighten-5);}
+.border-blue-l-4 {border-color: var(--blue-lighten-4);}
+.border-blue-l-3 {border-color: var(--blue-lighten-3);}
+.border-blue-l-2 {border-color: var(--blue-lighten-2);}
+.border-blue-l-1 {border-color: var(--blue-lighten-1);}
+.border-blue-d-4 {border-color: var(--blue-darken-4);}
+.border-blue-d-3 {border-color: var(--blue-darken-3);}
+.border-blue-d-2 {border-color: var(--blue-darken-2);}
+.border-blue-d-1 {border-color: var(--blue-darken-1);}
+.border-blue-a-4 {border-color: var(--blue-accent-4);}
+.border-blue-a-3 {border-color: var(--blue-accent-3);}
+.border-blue-a-2 {border-color: var(--blue-accent-2);}
+.border-blue-a-1 {border-color: var(--blue-accent-1);}
+
+/*---------------------------------------------------------------------*/
+/*  9.8 LIGHT BLUE
+/*---------------------------------------------------------------------*/
+/*> light | lighten | darken | accent */
+.border-light-blue {border-color: var(--light-blue);}
+.border-light-blue-l-5 {border-color: var(--light-blue-lighten-5);}
+.border-light-blue-l-4 {border-color: var(--light-blue-lighten-4);}
+.border-light-blue-l-3 {border-color: var(--light-blue-lighten-3);}
+.border-light-blue-l-2 {border-color: var(--light-blue-lighten-2);}
+.border-light-blue-l-1 {border-color: var(--light-blue-lighten-1);}
+.border-light-blue-d-4 {border-color: var(--light-blue-darken-4);}
+.border-light-blue-d-3 {border-color: var(--light-blue-darken-3);}
+.border-light-blue-d-2 {border-color: var(--light-blue-darken-2);}
+.border-light-blue-d-1 {border-color: var(--light-blue-darken-1);}
+.border-light-blue-a-4 {border-color: var(--light-blue-accent-4);}
+.border-light-blue-a-3 {border-color: var(--light-blue-accent-3);}
+.border-light-blue-a-2 {border-color: var(--light-blue-accent-2);}
+.border-light-blue-a-1 {border-color: var(--light-blue-accent-1);}
+
+/*---------------------------------------------------------------------*/
+/*  9.9 CYAN
+/*---------------------------------------------------------------------*/
+/*> cyan | lighten | darken | accent */
+.border-cyan {border-color: var(--cyan);}
+.border-cyan-l-5 {border-color: var(--cyan-lighten-5);}
+.border-cyan-l-4 {border-color: var(--cyan-lighten-4);}
+.border-cyan-l-3 {border-color: var(--cyan-lighten-3);}
+.border-cyan-l-2 {border-color: var(--cyan-lighten-2);}
+.border-cyan-l-1 {border-color: var(--cyan-lighten-1);}
+.border-cyan-d-4 {border-color: var(--cyan-darken-4);}
+.border-cyan-d-3 {border-color: var(--cyan-darken-3);}
+.border-cyan-d-2 {border-color: var(--cyan-darken-2);}
+.border-cyan-d-1 {border-color: var(--cyan-darken-1);}
+.border-cyan-a-4 {border-color: var(--cyan-accent-4);}
+.border-cyan-a-3 {border-color: var(--cyan-accent-3);}
+.border-cyan-a-2 {border-color: var(--cyan-accent-2);}
+.border-cyan-a-1 {border-color: var(--cyan-accent-1);}
+
+/*---------------------------------------------------------------------*/
+/*  9.10 TEAL
+/*---------------------------------------------------------------------*/
+/*> teal | lighten | darken | accent */
+.border-teal {border-color: var(--teal);}
+.border-teal-l-5 {border-color: var(--teal-lighten-5);}
+.border-teal-l-4 {border-color: var(--teal-lighten-4);}
+.border-teal-l-3 {border-color: var(--teal-lighten-3);}
+.border-teal-l-2 {border-color: var(--teal-lighten-2);}
+.border-teal-l-1 {border-color: var(--teal-lighten-1);}
+.border-teal-d-4 {border-color: var(--teal-darken-4);}
+.border-teal-d-3 {border-color: var(--teal-darken-3);}
+.border-teal-d-2 {border-color: var(--teal-darken-2);}
+.border-teal-d-1 {border-color: var(--teal-darken-1);}
+.border-teal-a-4 {border-color: var(--teal-accent-4);}
+.border-teal-a-3 {border-color: var(--teal-accent-3);}
+.border-teal-a-2 {border-color: var(--teal-accent-2);}
+.border-teal-a-1 {border-color: var(--teal-accent-1);}
+
+/*---------------------------------------------------------------------*/
+/*  9.11 GREEN
+/*---------------------------------------------------------------------*/
+/*> green | lighten | darken | accent */
+.border-green {border-color: var(--green);}
+.border-green-l-5 {border-color: var(--green-lighten-5);}
+.border-green-l-4 {border-color: var(--green-lighten-4);}
+.border-green-l-3 {border-color: var(--green-lighten-3);}
+.border-green-l-2 {border-color: var(--green-lighten-2);}
+.border-green-l-1 {border-color: var(--green-lighten-1);}
+.border-green-d-4 {border-color: var(--green-darken-4);}
+.border-green-d-3 {border-color: var(--green-darken-3);}
+.border-green-d-2 {border-color: var(--green-darken-2);}
+.border-green-d-1 {border-color: var(--green-darken-1);}
+.border-green-a-4 {border-color: var(--green-accent-4);}
+.border-green-a-3 {border-color: var(--green-accent-3);}
+.border-green-a-2 {border-color: var(--green-accent-2);}
+.border-green-a-1 {border-color: var(--green-accent-1);}
+
+/*---------------------------------------------------------------------*/
+/*  9.12 LIGHT GREEN
+/*---------------------------------------------------------------------*/
+/*> light | lighten | darken | accent */
+.border-light-green {border-color: var(--light-green);}
+.border-light-green-l-5 {border-color: var(--light-green-lighten-5);}
+.border-light-green-l-4 {border-color: var(--light-green-lighten-4);}
+.border-light-green-l-3 {border-color: var(--light-green-lighten-3);}
+.border-light-green-l-2 {border-color: var(--light-green-lighten-2);}
+.border-light-green-l-1 {border-color: var(--light-green-lighten-1);}
+.border-light-green-d-4 {border-color: var(--light-green-darken-4);}
+.border-light-green-d-3 {border-color: var(--light-green-darken-3);}
+.border-light-green-d-2 {border-color: var(--light-green-darken-2);}
+.border-light-green-d-1 {border-color: var(--light-green-darken-1);}
+.border-light-green-a-4 {border-color: var(--light-green-accent-4);}
+.border-light-green-a-3 {border-color: var(--light-green-accent-3);}
+.border-light-green-a-2 {border-color: var(--light-green-accent-2);}
+.border-light-green-a-1 {border-color: var(--light-green-accent-1);}
+
+/*---------------------------------------------------------------------*/
+/*  9.13 LIME
+/*---------------------------------------------------------------------*/
+/*> lime | lighten | darken | accent */
+.border-lime {border-color: var(--lime);}
+.border-lime-l-5 {border-color: var(--lime-lighten-5);}
+.border-lime-l-4 {border-color: var(--lime-lighten-4);}
+.border-lime-l-3 {border-color: var(--lime-lighten-3);}
+.border-lime-l-2 {border-color: var(--lime-lighten-2);}
+.border-lime-l-1 {border-color: var(--lime-lighten-1);}
+.border-lime-d-4 {border-color: var(--lime-darken-4);}
+.border-lime-d-3 {border-color: var(--lime-darken-3);}
+.border-lime-d-2 {border-color: var(--lime-darken-2);}
+.border-lime-d-1 {border-color: var(--lime-darken-1);}
+.border-lime-a-4 {border-color: var(--lime-accent-4);}
+.border-lime-a-3 {border-color: var(--lime-accent-3);}
+.border-lime-a-2 {border-color: var(--lime-accent-2);}
+.border-lime-a-1 {border-color: var(--lime-accent-1);}
+
+/*---------------------------------------------------------------------*/
+/*  9.14 YELLOW
+/*---------------------------------------------------------------------*/
+/*> yellow | lighten | darken | accent */
+.border-yellow {border-color: var(--yellow);}
+.border-yellow-l-5 {border-color: var(--yellow-lighten-5);}
+.border-yellow-l-4 {border-color: var(--yellow-lighten-4);}
+.border-yellow-l-3 {border-color: var(--yellow-lighten-3);}
+.border-yellow-l-2 {border-color: var(--yellow-lighten-2);}
+.border-yellow-l-1 {border-color: var(--yellow-lighten-1);}
+.border-yellow-d-4 {border-color: var(--yellow-darken-4);}
+.border-yellow-d-3 {border-color: var(--yellow-darken-3);}
+.border-yellow-d-2 {border-color: var(--yellow-darken-2);}
+.border-yellow-d-1 {border-color: var(--yellow-darken-1);}
+.border-yellow-a-4 {border-color: var(--yellow-accent-4);}
+.border-yellow-a-3 {border-color: var(--yellow-accent-3);}
+.border-yellow-a-2 {border-color: var(--yellow-accent-2);}
+.border-yellow-a-1 {border-color: var(--yellow-accent-1);}
+
+/*---------------------------------------------------------------------*/
+/*  9.15 AMBER
+/*---------------------------------------------------------------------*/
+/*> amber | lighten | darken | accent */
+.border-amber {border-color: var(--amber);}
+.border-amber-l-5 {border-color: var(--amber-lighten-5);}
+.border-amber-l-4 {border-color: var(--amber-lighten-4);}
+.border-amber-l-3 {border-color: var(--amber-lighten-3);}
+.border-amber-l-2 {border-color: var(--amber-lighten-2);}
+.border-amber-l-1 {border-color: var(--amber-lighten-1);}
+.border-amber-d-4 {border-color: var(--amber-darken-4);}
+.border-amber-d-3 {border-color: var(--amber-darken-3);}
+.border-amber-d-2 {border-color: var(--amber-darken-2);}
+.border-amber-d-1 {border-color: var(--amber-darken-1);}
+.border-amber-a-4 {border-color: var(--amber-accent-4);}
+.border-amber-a-3 {border-color: var(--amber-accent-3);}
+.border-amber-a-2 {border-color: var(--amber-accent-2);}
+.border-amber-a-1 {border-color: var(--amber-accent-1);}
+
+/*---------------------------------------------------------------------*/
+/*  9.16 ORANGE
+/*---------------------------------------------------------------------*/
+/*> orange | lighten | darken | accent */
+.border-orange {border-color: var(--orange);}
+.border-orange-l-5 {border-color: var(--orange-lighten-5);}
+.border-orange-l-4 {border-color: var(--orange-lighten-4);}
+.border-orange-l-3 {border-color: var(--orange-lighten-3);}
+.border-orange-l-2 {border-color: var(--orange-lighten-2);}
+.border-orange-l-1 {border-color: var(--orange-lighten-1);}
+.border-orange-d-4 {border-color: var(--orange-darken-4);}
+.border-orange-d-3 {border-color: var(--orange-darken-3);}
+.border-orange-d-2 {border-color: var(--orange-darken-2);}
+.border-orange-d-1 {border-color: var(--orange-darken-1);}
+.border-orange-a-4 {border-color: var(--orange-accent-4);}
+.border-orange-a-3 {border-color: var(--orange-accent-3);}
+.border-orange-a-2 {border-color: var(--orange-accent-2);}
+.border-orange-a-1 {border-color: var(--orange-accent-1);}
+
+/*---------------------------------------------------------------------*/
+/*  9.17 DEEP ORANGE
+/*---------------------------------------------------------------------*/
+/*> deep | lighten | darken | accent */
+.border-deep-orange {border-color: var(--deep-orange);}
+.border-deep-orange-l-5 {border-color: var(--deep-orange-lighten-5);}
+.border-deep-orange-l-4 {border-color: var(--deep-orange-lighten-4);}
+.border-deep-orange-l-3 {border-color: var(--deep-orange-lighten-3);}
+.border-deep-orange-l-2 {border-color: var(--deep-orange-lighten-2);}
+.border-deep-orange-l-1 {border-color: var(--deep-orange-lighten-1);}
+.border-deep-orange-d-4 {border-color: var(--deep-orange-darken-4);}
+.border-deep-orange-d-3 {border-color: var(--deep-orange-darken-3);}
+.border-deep-orange-d-2 {border-color: var(--deep-orange-darken-2);}
+.border-deep-orange-d-1 {border-color: var(--deep-orange-darken-1);}
+.border-deep-orange-a-4 {border-color: var(--deep-orange-accent-4);}
+.border-deep-orange-a-3 {border-color: var(--deep-orange-accent-3);}
+.border-deep-orange-a-2 {border-color: var(--deep-orange-accent-2);}
+.border-deep-orange-a-1 {border-color: var(--deep-orange-accent-1);}
+
+/*---------------------------------------------------------------------*/
+/*  9.18 BROWN
+/*---------------------------------------------------------------------*/
+/*> brown | lighten | darken | accent */
+.border-brown {border-color: var(--brown);}
+.border-brown-l-5 {border-color: var(--brown-lighten-5);}
+.border-brown-l-4 {border-color: var(--brown-lighten-4);}
+.border-brown-l-3 {border-color: var(--brown-lighten-3);}
+.border-brown-l-2 {border-color: var(--brown-lighten-2);}
+.border-brown-l-1 {border-color: var(--brown-lighten-1);}
+.border-brown-d-4 {border-color: var(--brown-darken-4);}
+.border-brown-d-3 {border-color: var(--brown-darken-3);}
+.border-brown-d-2 {border-color: var(--brown-darken-2);}
+.border-brown-d-1 {border-color: var(--brown-darken-1);}
+
+/*---------------------------------------------------------------------*/
+/*  9.19 BLUE GREY
+/*---------------------------------------------------------------------*/
+/* blue | lighten | darken | accent */
+.border-blue-grey {border-color: var(--blue-grey);}
+.border-blue-grey-l-5 {border-color: var(--blue-grey-lighten-5);}
+.border-blue-grey-l-4 {border-color: var(--blue-grey-lighten-4);}
+.border-blue-grey-l-3 {border-color: var(--blue-grey-lighten-3);}
+.border-blue-grey-l-2 {border-color: var(--blue-grey-lighten-2);}
+.border-blue-grey-l-1 {border-color: var(--blue-grey-lighten-1);}
+.border-blue-grey-d-4 {border-color: var(--blue-grey-darken-4);}
+.border-blue-grey-d-3 {border-color: var(--blue-grey-darken-3);}
+.border-blue-grey-d-2 {border-color: var(--blue-grey-darken-2);}
+.border-blue-grey-d-1 {border-color: var(--blue-grey-darken-1);}
+ 
+/*---------------------------------------------------------------------*/
+/*  9.20 GREY
+/*---------------------------------------------------------------------*/
+/* grey | lighten | darken | accent */
+.border-grey {border-color: var(--grey);}
+.border-grey-l-5 {border-color: var(--grey-lighten-5);}
+.border-grey-l-4 {border-color: var(--grey-lighten-4);}
+.border-grey-l-3 {border-color: var(--grey-lighten-3);}
+.border-grey-l-2 {border-color: var(--grey-lighten-2);}
+.border-grey-l-1 {border-color: var(--grey-lighten-1);}
+.border-grey-d-4 {border-color: var(--grey-darken-4);}
+.border-grey-d-3 {border-color: var(--grey-darken-3);}
+.border-grey-d-2 {border-color: var(--grey-darken-2);}
+.border-grey-d-1 {border-color: var(--grey-darken-1);}

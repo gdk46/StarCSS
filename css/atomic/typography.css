@@ -1,68 +1,496 @@
-/*!
- * Star CSS v1.0.0 - typography  
- * Copyright 2020-2021 The Gleisson Neves (Authors)
- * Licensed under MIT 
- * http://opensource.org/licenses/MIT
-*/
+/*-----------------------------------------------------------------------
+/*  Star CSS v1.0.0 - typography 
+/*  Description : Creative Resume fremawork
+/*  Version     : 1.0
+/*  Copyright 2020-2021 The Gleisson Neves (Authors)
+/*  Licensed under MIT 
+/*  http://opensource.org/licenses/MIT
+/*-----------------------------------------------------------------------
+/*  Glossary
+/*  l = lighten 
+/*  d = darken
+/*  a = accent
+/*-----------------------------------------------------------------------
 
+1. RESET
+2. SIZE
+3. ALIGN
+4. WEIGHT
+5. OPACITY
+6. DECORATION
+7. TRANSFORM
+8. WORD BREAK
+9. COLOR
+ 9.1 PRIMARY
+ 9.2 RED
+ 9.3 PINK
+ 9.4 PURPLE
+ 9.5 DEEP PURPLE
+ 9.6 INDIGO
+ 9.7 BLUE
+ 9.8 LIGHT BLUE
+ 9.9 CYAN
+ 9.10 TEAL
+ 9.11 GREEN
+ 9.12 LIGHT GREEN
+ 9.13 LIME
+ 9.14 YELLOW
+ 9.15 AMBER
+ 9.16 ORANGE
+ 9.17 DEEP ORANGE
+ 9.18 BROWN
+ 9.19 BLUE GREY
+ 9.20 GREY
+-----------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------*/
+/*  1. RESET
+/*---------------------------------------------------------------------*/
 h1, h2, h3, h4, h5, h6,
-.title, .title-1, .title-2, .title-3, .title-4, .title-5, .title-6 {
+.h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-weight: 300;
+  font-family: inherit;
+  font-weight: 500;
   line-height: 1.2;
+  color: inherit;
 }
 
+/*---------------------------------------------------------------------*/
+/*  2. RESET
+/*---------------------------------------------------------------------*/
+h1, .h1 {font-size: 2.5rem;}
+h2, .h2 {font-size: 2rem;}
+h3, .h3 {font-size: 1.75rem;}
+h4, .h4 {font-size: 1.5rem;}
+h5, .h5 {font-size: 1.25rem;}
+h6, .h6 {font-size: 1rem;}
 
-.subtitle, .subtitle-1, .subtitle-2, .subtitle-3, .subtitle-4, .subtitle-5, .subtitle-6{
-   margin-bottom: 0.3rem;
-   color: #b8bec7;
+/*---------------------------------------------------------------------*/
+/*  3. ALIGN
+/*---------------------------------------------------------------------*/
+.txt-justify {text-align: justify;}
+.txt-center {text-align: center;}
+.txt-left {text-align: left;}
+.txt-right {text-align: right;}
+.txt-middle {vertical-align: middle;}
+
+/*---------------------------------------------------------------------*/
+/*  4. WEIGHT
+/*---------------------------------------------------------------------*/
+.txt-wight-bold {font-weight: bold;}
+.txt-wight-thin {font-weight: 100;}
+.txt-wight-extralight {font-weight: 200;}
+.txt-wight-light {font-weight: 300;}
+.txt-wight-normal {font-weight: 400;}
+.txt-wight-medium	{font-weight: 500;}
+.txt-wight-semibold {font-weight: 600;}
+.txt-wight-bold {font-weight: 700;}
+.txt-wight-extrabold	{font-weight: 800;}
+.txt-wight-black {font-weight: 900;}
+
+/*---------------------------------------------------------------------*/
+/*  5. OPACITY
+/*---------------------------------------------------------------------*/
+.txt-opacity-0	{opacity: 0;}
+.txt-opacity-5	{opacity: 0.05;}
+.txt-opacity-10 {opacity: 0.1;}
+.txt-opacity-20 {opacity: 0.2;}
+.txt-opacity-25 {opacity: 0.25;}
+.txt-opacity-30 {opacity: 0.3;}
+.txt-opacity-40 {opacity: 0.4;}
+.txt-opacity-50 {opacity: 0.5;}
+.txt-opacity-60 {opacity: 0.6;}
+.txt-opacity-70 {opacity: 0.7;}
+.txt-opacity-75 {opacity: 0.75;}
+.txt-opacity-80 {opacity: 0.8;}
+.txt-opacity-90 {opacity: 0.9;}
+.txt-opacity-95 {opacity: 0.95;}
+.txt-opacity-100 {opacity: 1;}
+
+/*---------------------------------------------------------------------*/
+/*  6. DECORATION
+/*---------------------------------------------------------------------*/
+.txt-underline {text-decoration: underline;}
+.txt-line-through {text-decoration: line-through;}
+
+/*---------------------------------------------------------------------*/
+/*  7. TRANSFORM
+/*---------------------------------------------------------------------*/
+.txt-uppercase {text-transform: uppercase;}
+.txt-lowercase {text-transform: lowercase;}
+.txt-capitalize {text-transform: capitalize;}
+
+/*---------------------------------------------------------------------*/
+/*  8. WORD BREAK
+/*---------------------------------------------------------------------*/
+.txt-break-normal {
+   overflow-wrap: normal;
+   word-break: normal;
 }
 
-.title{
-   font-size: 2rem;
-}
-.subtitle{
-   font-size: 1.25rem;
+.txt-break-words {
+   overflow-wrap: break-word;
 }
 
-.title-1, .subtitle-1{
-   font-size: 3rem; 
-}
-.title-2, .subtitle-2{
-   font-size: 2.5rem;
-}
-.title-3, .subtitle-3{
-   font-size: 2rem;
-}
-.title-4, .subtitle-4{
-   font-size: 1.5rem;
+.txt-break-all {
+   word-break: break-all;
 }
 
-.title-5, .subtitle-5{
-   font-size: 1.25rem;
-}
-.title-6, .subtitle-6{
-   font-size: 1rem;
-}
+/*---------------------------------------------------------------------*/
+/*  9. COLOR
+/*   9.1 PRIMARY
+/*---------------------------------------------------------------------*/
+.txt-black {color: var(--black);}
+.txt-white {color: var(--white);}
+.txt-transparent {color:var(--transparent)}
 
-.text-muted {color: #999;}
+/*---------------------------------------------------------------------*/
+/*  9.2 RED
+/*---------------------------------------------------------------------*/
+/*> red | lighten | darken | accent */
+.txt-red {color: var(--red);}
+.txt-red-l-5 {color: var(--red-lighten-5);}
+.txt-red-l-4 {color: var(--red-lighten-4);}
+.txt-red-l-3 {color: var(--red-lighten-3);}
+.txt-red-l-2 {color: var(--red-lighten-2);}
+.txt-red-l-1 {color: var(--red-lighten-1);}
+.txt-red-d-4 {color: var(--red-darken-4);}
+.txt-red-d-3 {color: var(--red-darken-3);}
+.txt-red-d-2 {color: var(--red-darken-2);}
+.txt-red-d-1 {color: var(--red-darken-1);}
+.txt-red-a-4 {color: var(--red-accent-4);}
+.txt-red-a-3 {color: var(--red-accent-3);}
+.txt-red-a-2 {color: var(--red-accent-2);}
+.txt-red-a-1 {color: var(--red-accent-1);}
 
-.text-justify {text-align: justify;}
-.text-center {text-align: center;}
-.text-left {text-align: left;}
-.text-right {text-align: right;}
-.text-middle {vertical-align: middle;}
+/*---------------------------------------------------------------------*/
+/*  9.3 PINK
+/*---------------------------------------------------------------------*/
+/*> pink | lighten | darken | accent */
+.txt-pink {color: var(--pink);}
+.txt-pink-l-5 {color: var(--pink-lighten-5);}
+.txt-pink-l-4 {color: var(--pink-lighten-4);}
+.txt-pink-l-3 {color: var(--pink-lighten-3);}
+.txt-pink-l-2 {color: var(--pink-lighten-2);}
+.txt-pink-l-1 {color: var(--pink-lighten-1);}
+.txt-pink-d-4 {color: var(--pink-darken-4);}
+.txt-pink-d-3 {color: var(--pink-darken-3);}
+.txt-pink-d-2 {color: var(--pink-darken-2);}
+.txt-pink-d-1 {color: var(--pink-darken-1);}
+.txt-pink-a-4 {color: var(--pink-accent-4);}
+.txt-pink-a-3 {color: var(--pink-accent-3);}
+.txt-pink-a-2 {color: var(--pink-accent-2);}
+.txt-pink-a-1 {color: var(--pink-accent-1);}
 
-.text-little {color:var(--is_little);}
-.text-primary {color:var(--is_primary);}
-.text-link {color:var(--is_link);}
-.text-info {color:var(--is_info);}
-.text-success {color:var(--is_success);}
-.text-warning {color:var(--is_warning);}
-.text-danger {color:var(--is_danger);}
-.text-dark {color:var(--is_dark);}
-.text-glitter {color:var(--is_glitter);}
+/*---------------------------------------------------------------------*/
+/*  9.4 PURPLE
+/*---------------------------------------------------------------------*/
+/*> purple | lighten | darken | accent */
+.txt-purple {color: var(--purple);}
+.txt-purple-l-5 {color: var(--purple-lighten-5);}
+.txt-purple-l-4 {color: var(--purple-lighten-4);}
+.txt-purple-l-3 {color: var(--purple-lighten-3);}
+.txt-purple-l-2 {color: var(--purple-lighten-2);}
+.txt-purple-l-1 {color: var(--purple-lighten-1);}
+.txt-purple-d-4 {color: var(--purple-darken-4);}
+.txt-purple-d-3 {color: var(--purple-darken-3);}
+.txt-purple-d-2 {color: var(--purple-darken-2);}
+.txt-purple-d-1 {color: var(--purple-darken-1);}
+.txt-purple-a-4 {color: var(--purple-accent-4);}
+.txt-purple-a-3 {color: var(--purple-accent-3);}
+.txt-purple-a-2 {color: var(--purple-accent-2);}
+.txt-purple-a-1 {color: var(--purple-accent-1);}
 
-.bolder{
-   font-weight: bold;
-}
+/*---------------------------------------------------------------------*/
+/*  9.5 DEEP PURPLE
+/*---------------------------------------------------------------------*/
+/*> deep | lighten | darken | accent */
+.txt-deep-purple {color: var(--deep-purple);}
+.txt-deep-purple-l-5 {color: var(--deep-purple-lighten-5);}
+.txt-deep-purple-l-4 {color: var(--deep-purple-lighten-4);}
+.txt-deep-purple-l-3 {color: var(--deep-purple-lighten-3);}
+.txt-deep-purple-l-2 {color: var(--deep-purple-lighten-2);}
+.txt-deep-purple-l-1 {color: var(--deep-purple-lighten-1);}
+.txt-deep-purple-d-4 {color: var(--deep-purple-darken-4);}
+.txt-deep-purple-d-3 {color: var(--deep-purple-darken-3);}
+.txt-deep-purple-d-2 {color: var(--deep-purple-darken-2);}
+.txt-deep-purple-d-1 {color: var(--deep-purple-darken-1);}
+.txt-deep-purple-a-4 {color: var(--deep-purple-accent-4);}
+.txt-deep-purple-a-3 {color: var(--deep-purple-accent-3);}
+.txt-deep-purple-a-2 {color: var(--deep-purple-accent-2);}
+.txt-deep-purple-a-1 {color: var(--deep-purple-accent-1);}
+
+/*---------------------------------------------------------------------*/
+/*  9.6 INDIGO
+/*---------------------------------------------------------------------*/
+/*> indigo | lighten | darken | accent */
+.txt-indigo {color: var(--indigo);}
+.txt-indigo-l-5 {color: var(--indigo-lighten-5);}
+.txt-indigo-l-4 {color: var(--indigo-lighten-4);}
+.txt-indigo-l-3 {color: var(--indigo-lighten-3);}
+.txt-indigo-l-2 {color: var(--indigo-lighten-2);}
+.txt-indigo-l-1 {color: var(--indigo-lighten-1);}
+.txt-indigo-d-4 {color: var(--indigo-darken-4);}
+.txt-indigo-d-3 {color: var(--indigo-darken-3);}
+.txt-indigo-d-2 {color: var(--indigo-darken-2);}
+.txt-indigo-d-1 {color: var(--indigo-darken-1);}
+.txt-indigo-a-4 {color: var(--indigo-accent-4);}
+.txt-indigo-a-3 {color: var(--indigo-accent-3);}
+.txt-indigo-a-2 {color: var(--indigo-accent-2);}
+.txt-indigo-a-1 {color: var(--indigo-accent-1);}
+
+/*---------------------------------------------------------------------*/
+/*  9.7 BLUE
+/*---------------------------------------------------------------------*/
+/*> blue | lighten | darken | accent */
+.txt-blue {color: var(--blue);}
+.txt-blue-l-5 {color: var(--blue-lighten-5);}
+.txt-blue-l-4 {color: var(--blue-lighten-4);}
+.txt-blue-l-3 {color: var(--blue-lighten-3);}
+.txt-blue-l-2 {color: var(--blue-lighten-2);}
+.txt-blue-l-1 {color: var(--blue-lighten-1);}
+.txt-blue-d-4 {color: var(--blue-darken-4);}
+.txt-blue-d-3 {color: var(--blue-darken-3);}
+.txt-blue-d-2 {color: var(--blue-darken-2);}
+.txt-blue-d-1 {color: var(--blue-darken-1);}
+.txt-blue-a-4 {color: var(--blue-accent-4);}
+.txt-blue-a-3 {color: var(--blue-accent-3);}
+.txt-blue-a-2 {color: var(--blue-accent-2);}
+.txt-blue-a-1 {color: var(--blue-accent-1);}
+
+/*---------------------------------------------------------------------*/
+/*  9.8 LIGHT BLUE
+/*---------------------------------------------------------------------*/
+/*> light | lighten | darken | accent */
+.txt-light-blue {color: var(--light-blue);}
+.txt-light-blue-l-5 {color: var(--light-blue-lighten-5);}
+.txt-light-blue-l-4 {color: var(--light-blue-lighten-4);}
+.txt-light-blue-l-3 {color: var(--light-blue-lighten-3);}
+.txt-light-blue-l-2 {color: var(--light-blue-lighten-2);}
+.txt-light-blue-l-1 {color: var(--light-blue-lighten-1);}
+.txt-light-blue-d-4 {color: var(--light-blue-darken-4);}
+.txt-light-blue-d-3 {color: var(--light-blue-darken-3);}
+.txt-light-blue-d-2 {color: var(--light-blue-darken-2);}
+.txt-light-blue-d-1 {color: var(--light-blue-darken-1);}
+.txt-light-blue-a-4 {color: var(--light-blue-accent-4);}
+.txt-light-blue-a-3 {color: var(--light-blue-accent-3);}
+.txt-light-blue-a-2 {color: var(--light-blue-accent-2);}
+.txt-light-blue-a-1 {color: var(--light-blue-accent-1);}
+
+/*---------------------------------------------------------------------*/
+/*  9.9 CYAN
+/*---------------------------------------------------------------------*/
+/*> cyan | lighten | darken | accent */
+.txt-cyan {color: var(--cyan);}
+.txt-cyan-l-5 {color: var(--cyan-lighten-5);}
+.txt-cyan-l-4 {color: var(--cyan-lighten-4);}
+.txt-cyan-l-3 {color: var(--cyan-lighten-3);}
+.txt-cyan-l-2 {color: var(--cyan-lighten-2);}
+.txt-cyan-l-1 {color: var(--cyan-lighten-1);}
+.txt-cyan-d-4 {color: var(--cyan-darken-4);}
+.txt-cyan-d-3 {color: var(--cyan-darken-3);}
+.txt-cyan-d-2 {color: var(--cyan-darken-2);}
+.txt-cyan-d-1 {color: var(--cyan-darken-1);}
+.txt-cyan-a-4 {color: var(--cyan-accent-4);}
+.txt-cyan-a-3 {color: var(--cyan-accent-3);}
+.txt-cyan-a-2 {color: var(--cyan-accent-2);}
+.txt-cyan-a-1 {color: var(--cyan-accent-1);}
+
+/*---------------------------------------------------------------------*/
+/*  9.10 TEAL
+/*---------------------------------------------------------------------*/
+/*> teal | lighten | darken | accent */
+.txt-teal {color: var(--teal);}
+.txt-teal-l-5 {color: var(--teal-lighten-5);}
+.txt-teal-l-4 {color: var(--teal-lighten-4);}
+.txt-teal-l-3 {color: var(--teal-lighten-3);}
+.txt-teal-l-2 {color: var(--teal-lighten-2);}
+.txt-teal-l-1 {color: var(--teal-lighten-1);}
+.txt-teal-d-4 {color: var(--teal-darken-4);}
+.txt-teal-d-3 {color: var(--teal-darken-3);}
+.txt-teal-d-2 {color: var(--teal-darken-2);}
+.txt-teal-d-1 {color: var(--teal-darken-1);}
+.txt-teal-a-4 {color: var(--teal-accent-4);}
+.txt-teal-a-3 {color: var(--teal-accent-3);}
+.txt-teal-a-2 {color: var(--teal-accent-2);}
+.txt-teal-a-1 {color: var(--teal-accent-1);}
+
+/*---------------------------------------------------------------------*/
+/*  9.11 GREEN
+/*---------------------------------------------------------------------*/
+/*> green | lighten | darken | accent */
+.txt-green {color: var(--green);}
+.txt-green-l-5 {color: var(--green-lighten-5);}
+.txt-green-l-4 {color: var(--green-lighten-4);}
+.txt-green-l-3 {color: var(--green-lighten-3);}
+.txt-green-l-2 {color: var(--green-lighten-2);}
+.txt-green-l-1 {color: var(--green-lighten-1);}
+.txt-green-d-4 {color: var(--green-darken-4);}
+.txt-green-d-3 {color: var(--green-darken-3);}
+.txt-green-d-2 {color: var(--green-darken-2);}
+.txt-green-d-1 {color: var(--green-darken-1);}
+.txt-green-a-4 {color: var(--green-accent-4);}
+.txt-green-a-3 {color: var(--green-accent-3);}
+.txt-green-a-2 {color: var(--green-accent-2);}
+.txt-green-a-1 {color: var(--green-accent-1);}
+
+/*---------------------------------------------------------------------*/
+/*  9.12 LIGHT GREEN
+/*---------------------------------------------------------------------*/
+/*> light | lighten | darken | accent */
+.txt-light-green {color: var(--light-green);}
+.txt-light-green-l-5 {color: var(--light-green-lighten-5);}
+.txt-light-green-l-4 {color: var(--light-green-lighten-4);}
+.txt-light-green-l-3 {color: var(--light-green-lighten-3);}
+.txt-light-green-l-2 {color: var(--light-green-lighten-2);}
+.txt-light-green-l-1 {color: var(--light-green-lighten-1);}
+.txt-light-green-d-4 {color: var(--light-green-darken-4);}
+.txt-light-green-d-3 {color: var(--light-green-darken-3);}
+.txt-light-green-d-2 {color: var(--light-green-darken-2);}
+.txt-light-green-d-1 {color: var(--light-green-darken-1);}
+.txt-light-green-a-4 {color: var(--light-green-accent-4);}
+.txt-light-green-a-3 {color: var(--light-green-accent-3);}
+.txt-light-green-a-2 {color: var(--light-green-accent-2);}
+.txt-light-green-a-1 {color: var(--light-green-accent-1);}
+
+/*---------------------------------------------------------------------*/
+/*  9.13 LIME
+/*---------------------------------------------------------------------*/
+/*> lime | lighten | darken | accent */
+.txt-lime {color: var(--lime);}
+.txt-lime-l-5 {color: var(--lime-lighten-5);}
+.txt-lime-l-4 {color: var(--lime-lighten-4);}
+.txt-lime-l-3 {color: var(--lime-lighten-3);}
+.txt-lime-l-2 {color: var(--lime-lighten-2);}
+.txt-lime-l-1 {color: var(--lime-lighten-1);}
+.txt-lime-d-4 {color: var(--lime-darken-4);}
+.txt-lime-d-3 {color: var(--lime-darken-3);}
+.txt-lime-d-2 {color: var(--lime-darken-2);}
+.txt-lime-d-1 {color: var(--lime-darken-1);}
+.txt-lime-a-4 {color: var(--lime-accent-4);}
+.txt-lime-a-3 {color: var(--lime-accent-3);}
+.txt-lime-a-2 {color: var(--lime-accent-2);}
+.txt-lime-a-1 {color: var(--lime-accent-1);}
+
+/*---------------------------------------------------------------------*/
+/*  9.14 YELLOW
+/*---------------------------------------------------------------------*/
+/*> yellow | lighten | darken | accent */
+.txt-yellow {color: var(--yellow);}
+.txt-yellow-l-5 {color: var(--yellow-lighten-5);}
+.txt-yellow-l-4 {color: var(--yellow-lighten-4);}
+.txt-yellow-l-3 {color: var(--yellow-lighten-3);}
+.txt-yellow-l-2 {color: var(--yellow-lighten-2);}
+.txt-yellow-l-1 {color: var(--yellow-lighten-1);}
+.txt-yellow-d-4 {color: var(--yellow-darken-4);}
+.txt-yellow-d-3 {color: var(--yellow-darken-3);}
+.txt-yellow-d-2 {color: var(--yellow-darken-2);}
+.txt-yellow-d-1 {color: var(--yellow-darken-1);}
+.txt-yellow-a-4 {color: var(--yellow-accent-4);}
+.txt-yellow-a-3 {color: var(--yellow-accent-3);}
+.txt-yellow-a-2 {color: var(--yellow-accent-2);}
+.txt-yellow-a-1 {color: var(--yellow-accent-1);}
+
+/*---------------------------------------------------------------------*/
+/*  9.15 AMBER
+/*---------------------------------------------------------------------*/
+/*> amber | lighten | darken | accent */
+.txt-amber {color: var(--amber);}
+.txt-amber-l-5 {color: var(--amber-lighten-5);}
+.txt-amber-l-4 {color: var(--amber-lighten-4);}
+.txt-amber-l-3 {color: var(--amber-lighten-3);}
+.txt-amber-l-2 {color: var(--amber-lighten-2);}
+.txt-amber-l-1 {color: var(--amber-lighten-1);}
+.txt-amber-d-4 {color: var(--amber-darken-4);}
+.txt-amber-d-3 {color: var(--amber-darken-3);}
+.txt-amber-d-2 {color: var(--amber-darken-2);}
+.txt-amber-d-1 {color: var(--amber-darken-1);}
+.txt-amber-a-4 {color: var(--amber-accent-4);}
+.txt-amber-a-3 {color: var(--amber-accent-3);}
+.txt-amber-a-2 {color: var(--amber-accent-2);}
+.txt-amber-a-1 {color: var(--amber-accent-1);}
+
+/*---------------------------------------------------------------------*/
+/*  9.16 ORANGE
+/*---------------------------------------------------------------------*/
+/*> orange | lighten | darken | accent */
+.txt-orange {color: var(--orange);}
+.txt-orange-l-5 {color: var(--orange-lighten-5);}
+.txt-orange-l-4 {color: var(--orange-lighten-4);}
+.txt-orange-l-3 {color: var(--orange-lighten-3);}
+.txt-orange-l-2 {color: var(--orange-lighten-2);}
+.txt-orange-l-1 {color: var(--orange-lighten-1);}
+.txt-orange-d-4 {color: var(--orange-darken-4);}
+.txt-orange-d-3 {color: var(--orange-darken-3);}
+.txt-orange-d-2 {color: var(--orange-darken-2);}
+.txt-orange-d-1 {color: var(--orange-darken-1);}
+.txt-orange-a-4 {color: var(--orange-accent-4);}
+.txt-orange-a-3 {color: var(--orange-accent-3);}
+.txt-orange-a-2 {color: var(--orange-accent-2);}
+.txt-orange-a-1 {color: var(--orange-accent-1);}
+
+/*---------------------------------------------------------------------*/
+/*  9.17 DEEP ORANGE
+/*---------------------------------------------------------------------*/
+/*> deep | lighten | darken | accent */
+.txt-deep-orange {color: var(--deep-orange);}
+.txt-deep-orange-l-5 {color: var(--deep-orange-lighten-5);}
+.txt-deep-orange-l-4 {color: var(--deep-orange-lighten-4);}
+.txt-deep-orange-l-3 {color: var(--deep-orange-lighten-3);}
+.txt-deep-orange-l-2 {color: var(--deep-orange-lighten-2);}
+.txt-deep-orange-l-1 {color: var(--deep-orange-lighten-1);}
+.txt-deep-orange-d-4 {color: var(--deep-orange-darken-4);}
+.txt-deep-orange-d-3 {color: var(--deep-orange-darken-3);}
+.txt-deep-orange-d-2 {color: var(--deep-orange-darken-2);}
+.txt-deep-orange-d-1 {color: var(--deep-orange-darken-1);}
+.txt-deep-orange-a-4 {color: var(--deep-orange-accent-4);}
+.txt-deep-orange-a-3 {color: var(--deep-orange-accent-3);}
+.txt-deep-orange-a-2 {color: var(--deep-orange-accent-2);}
+.txt-deep-orange-a-1 {color: var(--deep-orange-accent-1);}
+
+/*---------------------------------------------------------------------*/
+/*  9.18 BROWN
+/*---------------------------------------------------------------------*/
+/*> brown | lighten | darken | accent */
+.txt-brown {color: var(--brown);}
+.txt-brown-l-5 {color: var(--brown-lighten-5);}
+.txt-brown-l-4 {color: var(--brown-lighten-4);}
+.txt-brown-l-3 {color: var(--brown-lighten-3);}
+.txt-brown-l-2 {color: var(--brown-lighten-2);}
+.txt-brown-l-1 {color: var(--brown-lighten-1);}
+.txt-brown-d-4 {color: var(--brown-darken-4);}
+.txt-brown-d-3 {color: var(--brown-darken-3);}
+.txt-brown-d-2 {color: var(--brown-darken-2);}
+.txt-brown-d-1 {color: var(--brown-darken-1);}
+
+/*---------------------------------------------------------------------*/
+/*  9.19 BLUE GREY
+/*---------------------------------------------------------------------*/
+/* blue | lighten | darken | accent */
+.txt-blue-grey {color: var(--blue-grey);}
+.txt-blue-grey-l-5 {color: var(--blue-grey-lighten-5);}
+.txt-blue-grey-l-4 {color: var(--blue-grey-lighten-4);}
+.txt-blue-grey-l-3 {color: var(--blue-grey-lighten-3);}
+.txt-blue-grey-l-2 {color: var(--blue-grey-lighten-2);}
+.txt-blue-grey-l-1 {color: var(--blue-grey-lighten-1);}
+.txt-blue-grey-d-4 {color: var(--blue-grey-darken-4);}
+.txt-blue-grey-d-3 {color: var(--blue-grey-darken-3);}
+.txt-blue-grey-d-2 {color: var(--blue-grey-darken-2);}
+.txt-blue-grey-d-1 {color: var(--blue-grey-darken-1);}
+ 
+/*---------------------------------------------------------------------*/
+/*  9.20 GREY
+/*---------------------------------------------------------------------*/
+/* grey | lighten | darken | accent */
+.txt-grey {color: var(--grey);}
+.txt-grey-l-5 {color: var(--grey-lighten-5);}
+.txt-grey-l-4 {color: var(--grey-lighten-4);}
+.txt-grey-l-3 {color: var(--grey-lighten-3);}
+.txt-grey-l-2 {color: var(--grey-lighten-2);}
+.txt-grey-l-1 {color: var(--grey-lighten-1);}
+.txt-grey-d-4 {color: var(--grey-darken-4);}
+.txt-grey-d-3 {color: var(--grey-darken-3);}
+.txt-grey-d-2 {color: var(--grey-darken-2);}
+.txt-grey-d-1 {color: var(--grey-darken-1);}
+
+
